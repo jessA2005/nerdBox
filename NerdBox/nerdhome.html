@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>NerdBox.</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="css/nerdboxstyle.css" rel="stylesheet" />
+    
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+
+<body class="hasbg">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="nerdhome.html">NerdBox.</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nerdhome.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reviews.html">reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">discussions</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Clubs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Fiction</a></li>
+                  <li><a class="dropdown-item" href="#">Non Fiction</a></li>
+                  <li><a class="dropdown-item" href="#">Sci fi</a></li>
+                  <li><a class="dropdown-item" href="#">Romance</a></li>
+                  <li><a class="dropdown-item" href="#">Horror & thriller</a></li>
+                  <li><a class="dropdown-item" href="#">Classics</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">All</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Link</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+    <div class="home">
+      <div class="left">
+        <h1>NerdBox.</h1>
+        <h2>Share your passion for literature.</h2>
+      </div>
+      <div class="right">
+        <div class="signup-cont">
+          <h3 class="signup">Sign Up</h3>
+          <form action="">
+            <div class="for-element name">
+              <input type="text" name="username" id="username" placeholder="@username">
+            </div>
+            <div class="for-element email">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="example@gmail.com">
+          </div>
+          <div class="for-element pass">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" placeholder="must be 6+ characters with numbers">
+              <div class="notice">Choose a strong password.</div>
+              </div>
+              <button id="signup">Sign Up</button>
+              <p>or</p>
+              <button id="google"><img src="img/google.svg" alt="google">Sign Up with Google</button>
+              <button id="facebook"><img src="img/facebook.png" alt="facebook">Sign Up with Facebook</button>
+              <p>already have an account? <span class="loginOption">log in</span></p>
+          </form>
+        </div>
+      </div>
+      </div>
+    </div>
+  </main>
+
+
+
+</body>
+</html>
